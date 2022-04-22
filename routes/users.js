@@ -3,6 +3,7 @@ const User = require('../models/user');
 const passport = require('passport');
 const authenticate = require('../authenticate');
 
+
 const router = express.Router();
 
 /* GET users listing. */
